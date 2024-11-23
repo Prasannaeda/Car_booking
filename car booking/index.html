@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Booking | Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Find Your Dream Car</h1>
+    <input type="text" id="search-bar" placeholder="Search by make or model..." oninput="filterCars()">
+    <p>Your go-to platform for booking and managing cars.</p>
+  
+    <!-- Add a button linking to CRUD page -->
+    <a href="management.html">
+      <button class="crud-button">Go to Car Management</button>
+    </a>
+  </header>
+  <main>
+    <section id="car-list"></section>
+  </main>
+  <footer>
+    <p>© 2024 Car Booking.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

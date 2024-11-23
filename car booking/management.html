@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Car List Section -->
+  <main>
+    <h2>Car List</h2>
+    <div id="car-list"></div>
+
+    <!-- Add Car Form -->
+    <h3>Add Car</h3>
+    <form id="car-form">
+      <input type="text" id="car-name" placeholder="Car Name" required>
+      <input type="text" id="car-model" placeholder="Car Model" required>
+      <input type="number" id="car-price" placeholder="Price" required>
+      <button type="submit">Add Car</button>
+    </form>
+  </main>
+
+  <script src="crud.js"></script> <!-- Link to the external JS file -->
+</body>
+</html>
